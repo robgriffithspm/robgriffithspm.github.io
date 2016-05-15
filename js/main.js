@@ -28,11 +28,11 @@ function askQuestions (){
 // //When the page loads
 // $(function(){
 
-// //when user clicks on a heading
-// $('h3').on('click', function (){ //.on sets the event listener
-// 	//Hide the content after that heading.
-// 	$(this).next().slideToggle(1000);
-// }); //This is doing the action in 1000 milliseconds
+//when user clicks on a heading
+$('h3').on('click', function (){ //.on sets the event listener
+	//Hide the content after that heading.
+	$(this).next().slideToggle(1000);
+}); //This is doing the action in 1000 milliseconds
 
 $(function(){
 	$('img').on('click', askQuestions);
